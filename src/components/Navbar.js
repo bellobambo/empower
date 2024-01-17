@@ -8,15 +8,15 @@ const handleClick = () => setClick(!click)
 
 
     return (
-        <div className='header'>
+        <div className='header  py-3'>
             <div className='container'>
-                <h1>De<span className='primary'>Fi</span></h1>
+                <h1 className='font-bold text-[50px] m-2 mt-3'>Empower<span className='primary'>Cooperation</span></h1>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li>
-                        <a href='/'>Home</a>
+                        {/* <a href='/'>Home</a> */}
                     </li>
                     <li>
-                        <a href='/'>Featured</a>
+                        <a href='/'>Crypto Updates</a>
                     </li>
                     <li>
                         <a href='/'>Earn</a>
@@ -26,7 +26,7 @@ const handleClick = () => setClick(!click)
                     </li>
                 </ul>
                 <div className='btn-group'>
-                    <button className='btn'>Connect Wallet</button>
+                    {/* <button className='btn'>Connect Wallet</button> */}
                 </div>
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={20} style={{color: '#333'}}/>) : (<FaBars size={20} style={{color: '#333'}} />)}
