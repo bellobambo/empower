@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bellobambo/empower.git/static/css/main.94af9ffc.css",
-    "main.js": "/bellobambo/empower.git/static/js/main.e0d4e7b7.js",
-    "static/media/trade.png": "/bellobambo/empower.git/static/media/trade.a2c09083fbde76e9cac2.png",
-    "static/media/hero-img.png": "/bellobambo/empower.git/static/media/hero-img.66b9eb77caa3ac6d4fe8.png",
-    "index.html": "/bellobambo/empower.git/index.html",
-    "main.94af9ffc.css.map": "/bellobambo/empower.git/static/css/main.94af9ffc.css.map",
-    "main.e0d4e7b7.js.map": "/bellobambo/empower.git/static/js/main.e0d4e7b7.js.map"
+    "main.css": "/empower.git/static/css/main.94af9ffc.css",
+    "main.js": "/empower.git/static/js/main.dd7431ab.js",
+    "static/media/trade.png": "/empower.git/static/media/trade.a2c09083fbde76e9cac2.png",
+    "static/media/hero-img.png": "/empower.git/static/media/hero-img.66b9eb77caa3ac6d4fe8.png",
+    "index.html": "/empower.git/index.html",
+    "main.94af9ffc.css.map": "/empower.git/static/css/main.94af9ffc.css.map",
+    "main.dd7431ab.js.map": "/empower.git/static/js/main.dd7431ab.js.map"
   },
   "entrypoints": [
     "static/css/main.94af9ffc.css",
-    "static/js/main.e0d4e7b7.js"
+    "static/js/main.dd7431ab.js"
   ]
 }
