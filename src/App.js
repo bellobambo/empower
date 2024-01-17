@@ -13,7 +13,6 @@ function App() {
       <Navbar />
       <Hero />
       <Featured />
-      <h1 className=' text-center font-bold text-[40px] p-3'>Live Crypto Updates</h1>
 
       <Updates/>
       <Signup />

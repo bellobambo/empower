@@ -12,17 +12,21 @@ const News = () => {
   const displayCryptoData = cryptoData.slice(0, 20); // Display only the first 20 items
 
   return (
-    <div className='grid m-4 ml-[100px] grid-cols-3 '>
-      {displayCryptoData.map((crypto) => (
-        <div className='m-2 border-2 rounded-md border-red-400 p-3' key={crypto.headline}>
-          <h2 className='font-bold text-[20px]'>{crypto.headline}</h2>
+    <div>
 
-          <p> {crypto.content}</p>
-          <p>Date : {crypto.date}</p>
+      <div className=' grid m-4 lg:grid-cols-3 '>
+        {displayCryptoData.map((crypto) => (
+          <div className='m-2 border-2 rounded-md border-red-400 p-3' key={crypto.headline}>
+            <h2 className='font-bold text-[20px]'>{crypto.headline}</h2>
 
-          {/* Add more information as needed */}
-        </div>
-      ))}
+            <p> {crypto.content}</p>
+            <p>Date : {crypto.date}</p>
+
+            {/* Add more information as needed */}
+          </div>
+        ))}
+      </div>
+
     </div>
   );
 };

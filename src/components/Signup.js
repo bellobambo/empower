@@ -1,5 +1,5 @@
 import React from 'react'
-import './Signup.css'
+
 
 import Crypto from '../assets/trade.png'
 
