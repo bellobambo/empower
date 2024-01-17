@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react'
-import axios from 'axios'
+
+
 // import BTC from '../assets/btc-img.png'
-import { FiArrowUpRight, FiArrowDown } from 'react-icons/fi'
+
 
 
 const Featured = () => {
@@ -9,7 +9,7 @@ const Featured = () => {
  
 
     return (
-        <div className='featured'>
+        <div className='featured m-4'>
             <div className='container'>
                 {/* Left */}
                 <div className='left'>

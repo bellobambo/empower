@@ -12,7 +12,7 @@ const CryptoData = () => {
   const displayCryptoData = cryptoData.slice(0, 20); // Display only the first 20 items
 
   return (
-<div>
+<div className='m-4'>
 <h1 className=' text-center font-bold text-[40px] p-3'>Live Crypto Updates</h1>
 
     <div className='grid  grid-cols-4'>

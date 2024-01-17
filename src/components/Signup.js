@@ -5,12 +5,13 @@ import Crypto from '../assets/trade.png'
 
 const Signup = () => {
     return (
-        <div className='signup'>
+        <div className='signup m-4'>
             <div className='container'>
                 {/* left */}
-                <div className='left'>
-                    <img src={Crypto} alt='' />
+                <div className='text-center flex items-center justify-center'>
+                    <img className='w-[200px] ' src={Crypto} alt='' />
                 </div>
+
 
                 {/* right */}
                 <div className='right'>

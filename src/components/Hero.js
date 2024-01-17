@@ -4,7 +4,7 @@ import Crypto from '../assets/hero-img.png'
 
 const Hero = () => {
     return (
-        <div className='hero my-6'>
+        <div className='hero my-6 m-4'>
             <div className='container'>
 
                 {/* Left Side */}
