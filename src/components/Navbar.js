@@ -8,23 +8,17 @@ const handleClick = () => setClick(!click)
 
 
     return (
-        <div className='header  py-3'>
+        <div className='header  py-3 bg-base-200'>
             <div className='container'>
-                <h1 className='font-bold text-[50px] m-2 mt-3'>Empower<span className='primary'>Cooperation</span></h1>
+            <img src='/logo.png' className='h-50 w-80 mt-3' alt='Logo' />
+
+                {/* <h1 className='font-bold text-[50px] m-2 mt-3'>Empower<span className='primary'>Cooperation</span></h1> */}
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                  
                     <li>
-                        {/* <a href='/'>Home</a> */}
-                    </li>
-                    <li>
-                        <a href='/'>Crypto Updates</a>
-                    </li>
-                    <li>
-                        <a href='/'>Earn</a>
-                    </li>
-                    <li>
-                        <a href='/'>Contact</a>
                     </li>
                 </ul>
+                        <a className='text-white' href='/'>Contact</a>
                 <div className='btn-group'>
                     {/* <button className='btn'>Connect Wallet</button> */}
                 </div>
