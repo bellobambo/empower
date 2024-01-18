@@ -9,10 +9,11 @@ const Navbar = () => {
     <div className='header py-3 bg-base-200 p-4'>
       <div className='flex justify-between items-center text-center'>
         <img src='/logo.png' className='h-50 w-80 mt-3' alt='Logo' />
-        
-        <a className='text-white px-4' href='/'>
-          Contact
-        </a>
+        <a className='pr-8 text-white bg-red-500 hover:text-white hover:bg-transparent btn btn-error' href="mailto:empower.investment.servicemail.co@gmail.com">
+  Contact Us
+</a>
+
+
       </div>
     </div>
   );

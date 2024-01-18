@@ -12,24 +12,28 @@ const CryptoData = () => {
   const displayCryptoData = cryptoData.slice(0, 20); // Display only the first 20 items
 
   return (
-<div className='m-4'>
-<h1 className=' text-center font-bold text-[40px] p-3'>Live Crypto Updates</h1>
+    <div className='m-4'>
+      <div className='flex justify-center items-center flex-col items-center'>
 
-    <div className='grid  grid-cols-4'>
+      <h1 className=' text-center font-bold text-[40px] p-3'>Live Crypto Updates</h1>
+      <h2>Explore top Crypto's Like Bitcoin, Ethereum, and Dogecoin</h2>
+      <p>See all available assets: Cryptocurrencies</p>
+      </div>
+      <div className='grid  grid-cols-4'>
 
-      {displayCryptoData.map((crypto) => (
-        <div className='m-2 p-2' key={crypto.id}>
-          <h2 className='font-bold text-[20px]'>{crypto.name}</h2>
-          <img width={40} height={40} src={crypto.image} alt={crypto.name} />
-          <p>Market Rank : {crypto.market_cap_rank}</p>
-          <p>Market Cap : {crypto.market_cap}</p>
+        {displayCryptoData.map((crypto) => (
+          <div className='m-2 p-2' key={crypto.id}>
+            <h2 className='font-bold text-[20px]'>{crypto.name}</h2>
+            <img width={40} height={40} src={crypto.image} alt={crypto.name} />
+            <p>Market Rank : {crypto.market_cap_rank}</p>
+            <p>Market Cap : {crypto.market_cap}</p>
 
-          {/* Add more information as needed */}
-        </div>
-      ))}
+            {/* Add more information as needed */}
+          </div>
+        ))}
+      </div>
+
     </div>
-
-</div>
   );
 };
 
